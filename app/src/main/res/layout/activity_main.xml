@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:text="Book a table"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/adult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adult:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/table"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/adult"
+        android:layout_alignBottom="@+id/adult"
+        android:layout_below="@+id/table"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/children"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Children:"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/adult"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/children"
+        android:layout_alignBottom="@+id/children"
+        android:layout_below="@+id/adult"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date:"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/children"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12/05/2022"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/date"
+        android:layout_alignBottom="@+id/date"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/children"/>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time:"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/date"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15:30"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/time"
+        android:layout_alignBottom="@id/time"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/date"/>
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Table number:"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/time"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="N13"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/number"
+        android:layout_alignBottom="@id/number"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/time"/>
+
+    <TextView
+        android:id="@+id/notes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notes:"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/number"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No notes"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/notes"
+        android:layout_alignBottom="@id/notes"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/number"/>
+    
+<!--    <com.google.android.material.card.MaterialCardView-->
+<!--        android:id="@+id/main_button"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"-->
+<!--        app:cardBackgroundColor="#00966A"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        app:cardCornerRadius="4dp"-->
+<!--        app:cardElevation="3dp"/>-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentBottom="true"
+
+
+
+
+</RelativeLayout>
