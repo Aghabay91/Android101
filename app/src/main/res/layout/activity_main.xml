@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/devet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dəvəti qəbul et"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/yer"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/yer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Var"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/yuk"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/yuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yük üçün yer"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_below="@id/rengi"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/rengi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boz"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/avt_reng"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/avt_reng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avtomobilin rəngi"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@id/nisan"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/nisan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10-OO-001"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/avt_nomre"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/avt_nomre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avtomobilin nömrəsi"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_below="@id/marka"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/marka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMW X7"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/avtomobil"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/avtomobil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avtomobilin markası"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/date"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="14:00"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/vaxt"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/vaxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Məntəqəni tərk etmə vaxtı"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/price"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10 AZN"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/odenis"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/odenis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ödəniş"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/number"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(+994)50 123 45 67"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/elaqe"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/elaqe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Əlaqə nömrəsi"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/name"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name Surname"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/surucu"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/surucu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sürücü"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_below="@id/baki"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="145dp"/>
+
+    <TextView
+        android:id="@+id/baki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bakı-Gəncə"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="10dp"/>
+</RelativeLayout>
