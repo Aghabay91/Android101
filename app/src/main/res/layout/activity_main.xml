@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8.3$"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@id/button2"
+        android:layout_marginTop="315dp"/>
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total:"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/button2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="315dp" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/name"
+        android:layout_marginTop="400dp"
+        android:text="Play" />
+
+    <TextView
+        android:id="@+id/secure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I want to pay with 3D secure"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="45dp"
+        android:layout_alignTop="@id/button2"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:text=""
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/name"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cardholder Name"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/expire"/>
+
+    <Button
+        android:id="@+id/cvv"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="CVV"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@id/expire"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:id="@+id/expire"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Card expires"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/number"/>
+
+    <Button
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Card number"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/enter"/>
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:text="Card details"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter card details"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+
+
+</RelativeLayout>
