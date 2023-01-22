@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">spinner_example</string>
+    
+    <string-array name="countries">
+
+        <item>Azərbaycan</item>
+        <item>Türkiyə</item>
+        <item>Almanya</item>
+        <item>Finlandiya</item>
+        <item>Argentina</item>
+
+    </string-array>
+    
+</resources>
